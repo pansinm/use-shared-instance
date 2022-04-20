@@ -1,0 +1,28 @@
+{
+  "name": "@upace/use-shared-instance",
+  "version": "0.1.0",
+  "description": "Singleton instance between react components",
+  "main": "dist/index.js",
+  "repository": "https://github.com/upacespace/use-shared-instance.git",
+  "author": "pansinm <pansinm@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@testing-library/react-hooks": "^8.0.0",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^18.0.5",
+    "jest": "^27.5.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "tsc"
+  },
+  "files": [
+    "dist"
+  ]
+}
